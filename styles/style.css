@@ -33,7 +33,7 @@ body {
     height: 50px;
 }
 
-.menu ul {
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -190,3 +190,57 @@ body {
 .popular-tours-content button.explore-button:hover {
     background-color: #ffc300;
 }
+
+
+/* Responsive Design Section */
+
+/* Mobile */
+input[type=checkbox] {
+    display: none;
+  } 
+  .toggle {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+  } 
+
+  @media (max-width: 600px) {
+    .nav-list {
+        display: none;
+    }
+    .toggle {
+        display: block;
+    }
+
+    /* banner section responsive */
+    .search-options,
+    .popular-tours-content{
+        flex-direction: column;
+    }
+    .overlay h1{
+        font-size: 22px;
+    }
+    .overlay p {
+        font-size: 14px;
+    }
+    .search-options{
+        border-radius: 8px;
+        background:rgba(255,255,255, 0.3);
+        padding:20px;
+        margin-top: 100px;
+    }
+    .search-options> input, select{
+        margin-bottom: 16px;
+        border-radius: 8px;
+        background: #FFF;
+    }
+     .left-content,.right-content{
+        margin-left: 16px;
+        margin-right: 16px;
+     }
+     
+    .right-content img {
+        margin-top: 24px;
+        width: 100%;
+    }
+   }
