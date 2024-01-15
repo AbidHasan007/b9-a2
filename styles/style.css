@@ -192,6 +192,55 @@ body {
 }
 
 
+
+
+/* Footer Styles */
+footer {
+    background-color: rgba(19, 19, 24, 0.05);
+    color: rgb(0, 0, 0);
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 50px; 
+}
+
+.footer-content p {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icon i {
+    font-size: 30px; 
+    color: #000000;
+}
+
+/* Copyright Statement */
+.footer-content p.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+
 /* Responsive Design Section */
 
 /* Mobile */
