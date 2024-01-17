@@ -5,7 +5,6 @@ body {
     margin: 0;
     font-family: 'Mulish', sans-serif;
 }
-@media screen and (min-width:992px) and (max-width:1600px){
 .navbar {
     background-color: #ffffff;
     overflow: hidden;
@@ -375,7 +374,7 @@ footer {
     color: #ccc;
 }
 
-}
+
 /* Responsive Design Section */
 
 /* Mobile */
